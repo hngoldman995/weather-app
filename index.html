@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <title>Weatherly</title>
+</head>
+<body>
+ <div class="headline">
+    <h1>Weatherly</h1>
+    <h3>Check the weather in any city</h3>
+</div>
+    <section class="information">
+        <div class="container">
+            <p>Please select a city OR enter your zipcode</p>
+            <select name="city-select" id="city-select">
+                <option value="default">select a city</option>
+                <option value="new-york">New York, New York</option>
+                <option value="paris">Paris, France</option>
+                <option value="tokyo">Tokyo, Japan</option>
+            </select>
+        </div>
+        <h2>-Or-</h2>
+        <div class="container"> 7y
+            <p></p>
+            <label for="zip-code">
+                <input type="text" name="zip-code" id="zip-code" placeholder="zip-code">
+            </label>
+            <button class="button" id="zip-code-lookup">Enter</button>
+        </div>
+
+        <div class="container">
+            <p id="error-message"></p>
+            <p id="location"></p>
+            <p id="skies"></p>
+            <p id="temp"></p>
+        </div>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

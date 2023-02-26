@@ -1,0 +1,41 @@
+/* LAYOUT */
+
+body {
+    background-image: url("images/cloudy.jpg");
+    background-color: rgb(163, 191, 226);
+    color:rgb(224, 234, 241);
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headline  {
+margin-bottom: 60px;
+}
+
+.information {
+    background-color: rgba(126, 134, 143, 0.5);
+    margin: auto 25%;
+    padding: 50px 0;
+    border-radius: 1%;
+}
+
+
+
+/* BASIC STYLING */
+
+h3 {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 620px) {
+    .information {
+        margin: auto 10%;
+      
+    }
+  }
